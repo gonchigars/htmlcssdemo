@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  background-color: #90e3a6;
+  color: white;
+  padding: 1rem;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  background-color: #8286be;
+  padding: 1rem;
+  width: 200px;
+}
+
+.body-content {
+  padding: 1rem;
+  flex: 1;
+}
